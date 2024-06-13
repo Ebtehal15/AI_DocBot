@@ -88,7 +88,7 @@ def main():
 
                 #Get the text chunks
                 text_chunks = get_text_chunks(raw_text)
-                st.write(text_chunks)
+                #st.write(text_chunks)
 
                 # Create vector store
                 vectorstore = get_vectorstore(text_chunks)
